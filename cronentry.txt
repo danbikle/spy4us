@@ -1,0 +1,5 @@
+# /home/ann/spy4us/cronentry.txt
+# I should call noon50.bash m-f at noon:50
+# I assume my Linux host is on California time.
+50 12 * * mon,tue,wed,thu,fri /home/ann/spy4us/noon50.bash > /tmp/noon50_bash.txt 2>&1
+#

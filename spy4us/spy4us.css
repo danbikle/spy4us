@@ -1,0 +1,8 @@
+/* CSS declarations go here */
+pre {
+    font-weight: 600;
+    font-family: monospace,"Courier New",Terminal;
+    font-size: 19px;
+    line-height: 22px;
+    color: #040;
+}
