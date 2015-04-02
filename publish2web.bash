@@ -18,14 +18,14 @@ else
   exit 1
 fi
 
-if [ `cat /home/ann/spy4us/sitename.txt` == 'spy.meteor.com' ]
-then
-  echo $0 will not run.
-  echo Why?
-  echo You need to read this file:
-  echo /home/ann/spy4us/sitename_readme.txt
-  exit 1
-fi
+# if [ `cat /home/ann/spy4us/sitename.txt` == 'spy.meteor.com' ]
+# then
+#   echo $0 will not run.
+#   echo Why?
+#   echo You need to read this file:
+#   echo /home/ann/spy4us/sitename_readme.txt
+#   exit 1
+# fi
 
 cd /tmp/spy4us/
 rm -rf spy4us
