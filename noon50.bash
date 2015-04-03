@@ -5,6 +5,9 @@
 # cron should call this script at 12:50pm California time.
 # This script should call ml101.bash with correct variables.
 
+# I should make this script cron-callable:
+export PATH=~ann/anaconda3/bin:$PATH
+
 # This should give me a YRS amount of predictions:
 export YRS=15
 # YRS should be >= TRAIN_YRS
