@@ -36,7 +36,7 @@ cp -p *csv *png spy4us/public/
 cd /tmp/spy4us/spy4us/
 echo '<template name="t2">'         > t2.html
 echo '<h3>head public/ff1.csv</h3>' >> t2.html
-echo '<pre>'                        >> t2.html
+echo '<pre id="pre_ff1">'           >> t2.html
 head -41 public/ff1.csv             >> t2.html
 echo '</pre>'                       >> t2.html
 echo '<hr />'                       >> t2.html
