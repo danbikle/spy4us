@@ -1,4 +1,11 @@
 if (Meteor.isClient) {
+
+
+  Template.body.onRendered(function() {
+    var myv1 = $('pre#pre_ff1').html();
+    Session.set('ff1csv',myv1)
+  });
+
   // counter starts at 0
   Session.setDefault('counter', 0);
 
