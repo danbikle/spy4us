@@ -1,3 +1,5 @@
+anti:i18n@0.4.3
+aslagle:reactive-table@0.7.2
 autopublish@1.0.3
 autoupdate@1.2.1
 base64@1.0.3
@@ -12,6 +14,7 @@ deps@1.0.7
 ejson@1.0.6
 fastclick@1.0.3
 geojson-utils@1.0.3
+harrison:papa-parse@1.0.10
 html-tools@1.0.4
 htmljs@1.0.4
 http@1.1.0
@@ -28,6 +31,7 @@ minifiers@1.1.5
 minimongo@1.0.8
 mobile-status-bar@1.0.3
 mongo@1.1.0
+mquandalle:jade@0.4.1
 observe-sequence@1.0.6
 ordered-dict@1.0.3
 random@1.0.3
