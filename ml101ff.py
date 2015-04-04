@@ -78,6 +78,14 @@ presult2_l.append(0.0)
 # I should make it a feature:
 df5['p2'] = presult2_l
 
+# I should save my features:
+
+ftr_fff = 'ftr_ff_GSPC.csv'
+df5.to_csv(ftr_fff, float_format='%4.3f', index=False)
+print('The features are in this file:')
+print(ftr_fff)
+print('Now the machine can learn.')
+
 # How many observations have I?
 obs_count = len(df5)
 print('I have this many observations: '+str(obs_count))
