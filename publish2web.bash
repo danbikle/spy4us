@@ -42,7 +42,7 @@ echo '</pre>'                       >> t2.html
 echo '<hr />'                       >> t2.html
 echo '</template>'                  >> t2.html
 
-~ann/.meteor/meteor deploy `cat /home/ann/spy4us/sitename.txt`
+~ann/.meteor/meteor --debug deploy `cat /home/ann/spy4us/sitename.txt`
 
 exit
 

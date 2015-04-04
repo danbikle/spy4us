@@ -6,7 +6,7 @@ if (Meteor.isClient) {
     var myp1 = Papa.parse(myh1);
     var myp2 = myp1.data       ;
     Session.set('ff1csv',myp2) ;
-    myh1.hide();
+
   });
 
   Template.body.helpers({
