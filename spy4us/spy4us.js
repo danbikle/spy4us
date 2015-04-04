@@ -3,9 +3,10 @@ if (Meteor.isClient) {
   Template.hello.onRendered(function() {
     var myh1 = $('pre#pre_ff1');
     var myh2 = myh1.html()     ;
-    var myp1 = Papa.parse(myh1);
+    var myp1 = Papa.parse(myh2);
     var myp2 = myp1.data       ;
     Session.set('ff1csv',myp2) ;
+    myh1.hide();
 
   });
 
@@ -13,7 +14,7 @@ if (Meteor.isClient) {
   Session.setDefault('counter', 0);
 
   Template.hello.helpers({
-    myCollection: function() {return Session.get('ff1csv'); }
+    myCollection: function() {return Session.get('ff1csv'); },
     counter:      function() {return Session.get('counter');}
   });
 
