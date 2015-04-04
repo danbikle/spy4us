@@ -9,3 +9,15 @@ body {
   font-size: 1.2em;
   line-height: 1.7em;
   font-family: sans-serif; }
+a, a:visited {
+  color: #0000BB;
+  text-decoration: underline;
+  font-weight: 600; }
+
+a:hover {
+  background-color: #EEEEEE;
+  color: #BB0000; }
+
+div#div4table { 
+  width: 800px;
+}
