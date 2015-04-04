@@ -4,5 +4,8 @@ pre {
     font-family: monospace,"Courier New",Terminal;
     font-size: 19px;
     line-height: 22px;
-    color: #040;
-}
+    color: #040; }
+body {
+  font-size: 1.2em;
+  line-height: 1.7em;
+  font-family: sans-serif; }
