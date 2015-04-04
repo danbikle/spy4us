@@ -6,13 +6,13 @@
   <h1>Welcome to Meteor!</h1>
 
   {{> hello}}
-  {{> t1}}
-  {{> t2}}
-  {{> t3}}
-  {{> reactiveTable collection=myCollection}}
 </body>
 
 <template name="hello">
   <button>Click Me</button>
   <p>You've pressed the button {{counter}} times.</p>
+  {{> t1}}
+  {{> t2}}
+  {{> t3}}
+  {{> reactiveTable collection=myCollection}}
 </template>
