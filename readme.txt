@@ -56,6 +56,8 @@ Installation Instructions:
 
 - echo 'export PATH=~ann/anaconda3/bin:~ann/.meteor:$PATH' >> ~ann/.bashrc
 
+- ~ann/.meteor/meteor login
+
 - ~ann/spy4us/call_ml101.bash
 
 - Use a browser to look at your site on meteor.com
