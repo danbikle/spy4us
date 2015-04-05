@@ -30,6 +30,8 @@ Installation Instructions:
 
 - Login as root
 
+- apt-get install gitk wget
+
 - useradd -m -s /bin/bash ann
 
 - passwd ann
@@ -40,5 +42,26 @@ Installation Instructions:
 
 - bash Anaconda3-2.2.0-Linux-x86_64.sh
 
+- mv ~ann/anaconda3/bin/curl ~ann/anaconda3/bin/curl_ana
 
+- git clone https://github.com/danbikle/spy4us.git
 
+- cat ~ann/spy4us/sitename_readme.txt
+
+- vi  ~ann/spy4us/sitename.txt
+
+- Create account on meteor.com
+
+- curl https://install.meteor.com/ | sh
+
+- ~ann/spy4us/call_ml101.bash
+
+- Use a browser to look at your site on meteor.com
+
+- Use a browser to look at my site: spy.meteor.com
+
+- Ask questions:
+
+dan@bot4.us
+
+-- Dan Bikle
