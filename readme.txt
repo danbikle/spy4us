@@ -9,7 +9,7 @@ predictions is to buy/sell SPY in my brokerage account.
 
 The software in this repo is divided into two parts.
 
-The first part calculates the predictions from prices of SPY.
+The first part calculates the predictions from prices of GSPC.
 
 The second part copies the predictions to a meteor application.
 
