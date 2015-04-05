@@ -54,11 +54,17 @@ Installation Instructions:
 
 - curl https://install.meteor.com/ | sh
 
+- echo 'export PATH=~ann/anaconda3/bin:~ann/.meteor:$PATH' >> ~ann/.bashrc
+
 - ~ann/spy4us/call_ml101.bash
 
 - Use a browser to look at your site on meteor.com
 
 - Use a browser to look at my site: spy.meteor.com
+
+- crontab ~ann/spy4us/cronentry.txt
+
+- Use a browser to look at your site on meteor.com at 12:55 M-F
 
 - Ask questions:
 
